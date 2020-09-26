@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { EmailComposer } from '@ionic-native/email-composer/ngx';
+import { EmailComposer } from '@ionic-native/email-composer';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
 /**
