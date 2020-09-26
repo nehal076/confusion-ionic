@@ -28,8 +28,9 @@ import { LoginPage } from '../pages/login/login';
 import { LocalNotifications } from '@ionic-native/local-notifications';
 import { EmailComposer } from '@ionic-native/email-composer';
 import { SocialSharing } from '@ionic-native/social-sharing';
-import { Camera } from '@ionic-native/camera/ngx';
+import { Camera } from '@ionic-native/camera';
 import { RegisterPage } from '../pages/register/register';
+import { Network } from '@ionic-native/network';
 
 @NgModule({
   declarations: [
@@ -78,7 +79,8 @@ import { RegisterPage } from '../pages/register/register';
     LocalNotifications,
     EmailComposer,
     SocialSharing,
-    Camera
+    Camera,
+    Network
   ]
 })
 export class AppModule {}
